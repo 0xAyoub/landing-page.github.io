@@ -1,0 +1,458 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("assets/Montserrat/Montserrat-Thin.ttf") format("TrueType");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("assets/Montserrat/Montserrat-Light.ttf") format("TrueType");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("assets/Montserrat/Montserrat-Medium.ttf") format("TrueType");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("assets/Montserrat/Montserrat-SemiBold.ttf") format("TrueType");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("assets/Montserrat/Montserrat-Bold.ttf") format("TrueType");
+    font-weight: 700;
+}
+
+body{
+    font-family: Montserrat;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    padding: 50px 100px 0px 100px;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.btn-header-div{
+    text-align: right;
+}
+
+.btn-header{
+    padding: 20px;
+    background-color: transparent;
+    border: 3px rgb(29, 26, 63) solid;
+    color: rgb(29, 26, 63);
+    border-radius: 7px;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.block1{
+    display: grid;
+    grid-template-columns: 75% 25%;
+    padding: 90px 0;
+}
+
+.block1-right{
+    display: grid;
+}
+
+.block1-right-sp{
+    text-align: left;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+
+.block1-right-content{
+    display: inline-block;
+}
+
+.block1-right-text, .block1-right-title{
+    margin: 0;
+}
+
+.block1-right-title{
+    font-size: 35px;
+}
+
+.block1-right-text{
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.block1-left{
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+
+}
+
+.block1-left-write{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    margin-left: 100px;
+    z-index: 1;
+    padding: 110px 0;
+}
+
+.block1-left-title{
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 50px;
+    margin: 0;
+}
+
+.bold{
+    font-weight: 600;
+}
+
+.block1-left-text{
+    font-size: 17px;
+    font-weight: 400;
+    margin: 40px 0;
+    display: block;
+    width: 50%;
+}
+
+.block1-left-img{
+    display: flex;
+    position: relative;
+    width: 350px;
+    left: -10%;
+}
+
+.block1-left-btn{
+    background-color: rgb(29, 26, 63);
+    color: white;
+    padding: 20px;
+    border-radius: 7px;
+    font-family: Montserrat;
+    border: solid;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.block1-pattern{
+    width: 300px;
+    display: flex;
+    position: relative;
+    left: 250px;
+    top: -50px;
+}
+
+
+.block2{
+    margin: 20px 100px -200px 100px;
+    background-color: rgb(29, 26, 63);
+    border-radius: 15px;
+    color: white;
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    height: 450px;
+    z-index: 2;
+    position: relative;
+}
+
+.block2-left{
+    position: relative;
+    align-items: center;
+    height: inherit;
+    display: block;
+}
+
+.blur{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 45%;
+
+}
+
+.jeremy{
+    position: absolute;
+    height: 110%;
+    width: auto;
+    z-index: 1;
+    top: -10%;
+    left: 20%;
+}
+
+.block2-right{
+    position: relative;
+    top: 15%;
+}
+
+.block2-right h2{
+    font-size: 40px;
+    margin: 0 0 10px 0;
+    font-weight: 400;
+}
+.block2-right p{
+    font-size: 18px;
+    line-height: 27px;
+    margin: 40px 0 0 0;
+    font-weight: 300;
+}
+.block2-right h5{
+    font-size: 20px;
+    margin: 40px 0 0 0;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.block2-right h4{
+    font-size: 15px;
+    margin: 5px 0 0 0;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.pattern2{
+    position: relative;
+    top: 35%;
+    left: 80%;
+    opacity: 60%;
+}
+
+.footer{
+    background-color: rgb(255, 248, 243);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 250px;
+    width: auto;
+    padding: 200px 200px 0 200px;
+}
+
+
+.footer-logo{
+    justify-self: left;
+    align-self: center;
+}
+
+.footer h5{
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+}
+
+.footer-social{
+    justify-self: right;
+    align-self: center;
+}
+
+.footer-social img{
+    margin: 0 3px
+}
+
+@media screen and (max-width: 1200px) {
+
+    .block1{
+        display: block;
+    }
+
+    .block1-right{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .block1-right-sp{
+        text-align: center;
+    }
+    .block1-left-write{
+        padding: 90px 0;
+    }
+
+    .block2{
+        margin: 20px 20px -200px 20px;
+    }
+
+    .body{
+        padding: 50px 30px 0px 30px;
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .block2{
+        height: 700px;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: none;
+        padding: 0 0 30px 0;
+    }
+
+    .block2-left{
+        height: 400px;
+    }
+
+    .jeremy{
+        height: 400px;
+        top: -25%;
+        left: 35%;
+    }
+
+    .blur{
+        top: -35%;
+        left: 15%;
+    }
+
+    .pattern2{
+        top: 325px;
+        left: 45%;
+    }
+
+    .block2-right{
+        top: 0;
+        text-align: center;
+    }
+
+    .block1-left{
+        display: block;
+    }
+
+    .block1-left-write{
+        padding: 0;
+        margin: 0;
+    }
+
+    .block1-pattern{
+        width: 200px;
+        top: 0;
+        left: 240px;
+    }
+
+    .block1-left-text{
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    .block1-left-img{
+        display: none;        
+    }
+    
+    .block1-right-sp{
+        margin: 40px 0;
+    }    
+
+    .footer{
+        padding: 200px 50px 0 50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .jeremy {
+        height: 400px;
+        top: -25%;
+        left: 30%;
+      }
+      .blur {
+        top: -35%;
+        left: 10px;
+      }
+}
+
+@media screen and (max-width: 500px) {
+    .jeremy {
+        height: 400px;
+        top: -25%;
+        left: 22%;
+      }
+      .blur {
+        top: -35%;
+        left: -50px;
+      }
+}
+
+
+@media screen and (max-width: 420px) {
+    .block1-pattern{
+        left: 10px;
+    }
+
+    .block1-left-img{
+        display: flex;
+        content: url(assets/image-hero-landscape.png);
+        width: 100%;
+        left: 0;
+        top: 10px;
+    }
+
+    .block1-left-title{
+        font-size: 45px;
+    }
+
+    .jeremy {
+        height: 300px;
+        top: -10%;
+        left: 25%;
+    }
+
+    .blur {
+        top: -30px;
+        left: 0;
+        height: 85%;
+      }
+
+      .pattern2 {
+        top: 285px;
+        left: 40%;
+      }
+
+      .block2-left {
+        height: 300px;
+      }
+
+      .block2{
+            padding: 0;
+      }
+
+      .block2-right p{
+          font-size: 15px;
+      }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .jeremy {
+        height: 300px;
+        top: -10%;
+        left: 15%;
+      }
+
+      .blur {
+        top: 0;
+        left: 0;
+      }
+
+      .pattern2 {
+        left: 35%;
+      }
+      .block2-right h2{
+          font-size: 30px;
+      }
+}
